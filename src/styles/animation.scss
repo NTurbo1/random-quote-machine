@@ -1,0 +1,11 @@
+@mixin animate($animation,$duration, $timing){
+    animation: $animation $duration $timing;
+}
+
+@mixin keyframes($name){
+    @keyframes #{$name}{
+        0% {opacity: 0;}
+        50% {opacity: 0.5;}
+        100% {opacity: 1;}
+    }
+}

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: background-color 2s;
+}
+
+.quote-box-background {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 40px;
+  width: 500px;
+}
+
+.quote-text {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.quote-text, .author-name {
+  animation: slowAppearance 2s ease-in;
+}
+@keyframes slowAppearance {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.author-name-box {
+  display: flex;
+  justify-content: end;
+}
+
+.links-btns-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-box {
+  display: flex;
+  gap: 7px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.link-image:hover {
+  opacity: 0.7;
+}
+
+.next-quote-btn {
+  border-style: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  opacity: 1;
+}
+.next-quote-btn:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=style.css.map */
