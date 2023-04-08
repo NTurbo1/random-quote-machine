@@ -37,5 +37,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nturbo1.github.io/random-quote-machine"
+  "homepage": "https://nturbo1.github.io/random-quote-machine",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
